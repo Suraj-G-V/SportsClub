@@ -1,0 +1,1997 @@
+@charset "utf-8";
+/* CSS Document */
+
+.heading {
+	width: 1185px;
+	height: 90px;
+	/*margin-top:15px;*/
+}
+
+.brand-logo {
+	width: 226px;
+	height: 68px;
+}
+
+.logo {
+	width: 68px;
+	height: 68px;
+}
+
+.brand-name {
+	width: 150px;
+	height: 52px;
+	color: #262626;
+	font-size: 20px;
+	/* font-family: Baskerville; */
+}
+
+.brand-name a {
+	text-decoration: none;
+	color: #262626;
+}
+
+.calling {
+	width: 176.37px;
+	height: 45px;
+	/*margin-left:122px;*/
+}
+
+.call-icon {
+	margin: auto;
+	/* margin-right: -28px; */
+	padding-right: 14px;
+}
+
+.email {
+	width: 221.53px;
+	height: 45px;
+	/*margin-left:65.5px;*/
+}
+
+.mail-icon {
+	margin: auto;
+	/* margin-right: -28px; */
+	padding-right: 14px;
+}
+
+.social-m {
+	width: 160.34px;
+	height: 38.34px;
+}
+
+/*Nav Bar css*/
+.nav1 {
+	background-color: #448F3C;
+	color: #FFFFFF !important;
+	width: 1185px;
+	height: 65px;
+
+}
+
+.nav1 ul a {
+	color: #FFFFFF !important;
+	padding-right: 3rem;
+}
+
+.nav1 ul li {
+	padding-right: 3rem !important;
+}
+
+
+.nav1 ul a:hover {
+	color: #FFFFFF !important;
+	font-weight: bold;
+	border-bottom: 8px solid #FFFFFF;
+	padding-bottom: 16px;
+
+}
+
+/*Carousel css*/
+
+.caro {
+	width: 1185px;
+	height: 603px;
+}
+
+.caro1 {
+	padding: 0;
+}
+
+.caro1 img {
+	width: 1185px;
+	height: 603px;
+}
+
+.carousel-item:after {
+	content: "";
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	background: #000000;
+	opacity: 0.4;
+}
+
+.carousel-caption {
+	bottom: 252px;
+	margin: auto;
+
+	width: 558px;
+	height: 136px;
+	/* font-family: 'MyWebFont'; */
+	font-size: 56px;
+	font-weight: 600;
+	text-align: center;
+}
+
+.caption-head {
+	width: 558px;
+	height: 136px;
+	/* font-family: 'MyWebFont'; */
+	font-size: 56px;
+	font-weight: 600;
+	text-align: center;
+
+}
+
+
+.caption-details {
+	width: 487px;
+	height: 47px;
+	font-size: 16px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 0;
+	/* margin-left: 194px; */
+	text-align: center;
+}
+
+/*About css*/
+.about {
+	width: 1185px;
+	height: 500px;
+	/* position: relative;*/
+}
+
+.about img {
+	width: 440px;
+	height: 200px;
+}
+
+/* .about-img{
+	 padding-left: 373px;
+} */
+
+.about-contain {
+	width: 869px;
+	height: 331px;
+	bottom: 87px;
+
+}
+
+.about-head {
+	width: 334px;
+	height: 92px;
+	text-align: center;
+	font-size: 35px;
+	font-weight: bold;
+	/* 
+	left: 425px; */
+}
+
+.about-texts {
+	width: 869px;
+	height: 132px;
+	font-size: 15px;
+	font-style: 'Roboto', sans-serif;
+
+	text-align: center;
+}
+
+.about-button button {
+	width: 230px;
+	height: 50px;
+	color: #448F3C;
+	border: solid 1px #448F3C;
+	padding: 12px 19px;
+	margin-top: 18px;
+}
+
+.facilities {
+	width: 1185px;
+	height: 581px;
+	background: #448F3C;
+	color: #FFFFFF;
+}
+
+.facilities-head {
+	width: 212px;
+	height: 47px;
+	font-size: 35px;
+	font-weight: bold;
+	text-align: center;
+	top: 92px
+}
+
+.faclities-text {
+	width: 595px;
+	height: 30.56px;
+	font-size: 15px;
+	font-family: ;
+	text-align: center;
+	top: 108.5px;
+}
+
+.facilities-features {
+	/* position: relative; */
+	margin-top: 200px;
+}
+
+.faf-1 {
+	width: 188px;
+	height: 246px;
+	/*padding-left: 107px;*/
+	padding-left: 75px;
+
+}
+
+.faf-2 {
+	width: 188px;
+	height: 246px;
+	padding-left: 70px;
+
+}
+
+.faf-3 {
+	width: 188px;
+	height: 246px;
+	padding-left: 70px;
+
+}
+
+.faf-4 {
+	width: 188px;
+	height: 246px;
+	padding-left: 70px;
+
+}
+
+.faf-1-icon {
+	padding-left: 37px;
+}
+
+.faf-head {
+	/*width:188px;*/
+	height: 33px;
+	font-size: 25px;
+	font-weight: 500;
+}
+
+.faf-text {
+	/*width:188px;*/
+	height: 34px;
+	font-size: 12px;
+	text-align: center;
+}
+
+.faf-btn button {
+	width: 134px;
+	height: 35px;
+	color: #FFFFFF;
+	background: #448F3C;
+	border: solid 1px #FFFFFF;
+	margin-left: 7px;
+}
+
+
+
+/*membership css*/
+.membership {
+	width: 1185px;
+	height: 600px;
+	/* display:grid;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid; */
+
+}
+
+.membership img {
+	/* margin: 126px 136px;	
+	position: absolute; */
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.containt-box {
+	width: 487px;
+	height: 203px;
+	position: relative;
+	top: 37%;
+	left: 31%;
+	color: #FFFFFF;
+}
+
+.memb-head {
+	width: 428px;
+	height: 67px;
+	font-size: 50px;
+	font-weight: bold;
+	display: inline;
+
+}
+
+.memb-text {
+	width: 487px;
+	height: 47px;
+	font-size: 16px;
+	text-align: center;
+}
+
+.memb-btn button {
+	width: 230px;
+	height: 50px;
+	font-size: 20px;
+	font-weight: bold;
+	color: #FFFFFF;
+	background: #448F3C;
+
+}
+
+/* News and Events */
+.news-event {
+	width: 1185px;
+	height: 650px;
+	background: #F7F7F7;
+}
+
+.ne-head {
+	width: 278px;
+	height: 47px;
+	font-size: 35px;
+	font-weight: bold;
+	padding-top: 70px;
+}
+
+.ne-text {
+	width: 595px;
+	height: 30.56px;
+	font-family: ;
+	font-size: 15px;
+	text-align: center;
+	padding-top: 58.5px;
+}
+
+.ne-contents {
+	width: 1074.21px;
+	height: 319px;
+	/* border: solid 1px #000000; */
+	margin-top: 102px;
+}
+
+.nec-head {
+	width: 243px;
+	height: 27px;
+	font-family: ;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: left;
+	display: contents;
+}
+
+.nec-date {
+	width: 251px;
+	height: 19px;
+	font-family: ;
+	font-size: 14px;
+	text-align: left;
+	display: table-footer-group;
+}
+
+.nec-text {
+	width: 325.21px;
+	height: 43.89px;
+	font-family: ;
+	font-size: 12px;
+	text-align: left;
+	display: contents;
+
+}
+
+.nec-btn button {
+	width: 134px;
+	height: 35px;
+	color: #222121;
+	font-size: 16px;
+	border: solid 1px #848484;
+
+}
+
+.ne-btn button {
+	width: 200px;
+	height: 55px;
+	font-size: 20px;
+	font-weight: bold;
+	color: #FFFFFF;
+	background-color: #448F3C;
+
+}
+
+.ne-btn {
+	text-align: center;
+}
+
+/* Contact Us CSS  */
+.contact-us {
+	width: 1185px;
+	height: 575px;
+	background-color: #448F3C;
+	/* position: absolute; */
+}
+
+.contact-head {
+	color: #FFFFFF;
+	width: 178px;
+	height: 47px;
+	font-weight: bold;
+	font-size: 36px;
+	display: inline;
+	position: relative;
+	left: 466px;
+	top: 63px;
+}
+
+.contact-text {
+	width: 595px;
+	height: 30.56px;
+	font-size: 15px;
+	color: #FFFFFF;
+	font-family: ;
+	text-align: center;
+	position: relative;
+	top: 80px;
+	left: 261px;
+
+}
+
+.contact-containt {
+	width: 1114px;
+	height: 325px;
+	/* border: solid 1px #FFFFFF; */
+	position: relative;
+	top: 130px;
+}
+
+.contact-border {
+	border: solid 1px #448F3C;
+	background-color: #FFFFFF;
+}
+
+.contact-icon {
+	background-color: #448F3C;
+	border-radius: 50%;
+	width: 88px;
+	height: 88px;
+
+	position: relative;
+	top: 51px;
+	left: 114px;
+}
+
+.contact-icon img {
+	/* position: relative;
+    top: 17px;
+    left: 6px; */
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.contact-hd {
+	width: 141px;
+	height: 40px;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: left;
+	display: inline;
+	top: 61px;
+	left: 77px;
+}
+
+.contact-subtxt {
+	width: 100%;
+	height: 20px;
+	font-family: ;
+	font-size: 15px;
+	text-align: center;
+	display: block;
+	top: 60px;
+	left: -8px;
+	color: #707070;
+
+}
+
+.contact-txt {
+	width: 100%;
+	height: 20px;
+	font-family: ;
+	font-size: 15px;
+	text-align: center;
+	top: 66px;
+}
+
+/* Qick Links css */
+
+.quick-links {
+	width: 1185px;
+	height: 373px;
+	background-color: #F7F7F7;
+}
+
+.ql {
+	width: 1048px;
+	height: 277px;
+
+	/* position: absolute;
+	top: 50%;
+	left: 51%;
+	transform: translate(-50%, -50%); */
+	margin: auto;
+	padding-top: 3%;
+
+}
+
+.ql-head {
+	font-size: 25px;
+	font-weight: bold;
+	height: 33px;
+}
+
+#links ul li {
+	list-style-type: none;
+	padding-top: 17px;
+}
+
+#links ul li a {
+	text-decoration-style: none;
+	color: #475466;
+}
+
+#links ul a:hover {
+	text-decoration: none;
+}
+
+#links {
+	height: 226px;
+	height: 226px;
+	font-size: 20px;
+	margin-left: -33px;
+	color: #475466;
+}
+
+
+.ql-text {
+	font-family: ;
+	font-size: 20px;
+	color: #475466;
+	text-align: left;
+}
+
+.foter {
+	text-align: center;
+	font-size: 20px;
+	color: #0E0E0F;
+}
+
+
+/* About Page css */
+.aboutpage {
+	width: 1185px;
+	/* height: 92px; */
+}
+
+.aboutpage-nav {
+	background-color: #FFFFFF;
+	color: #FFFFFF !important;
+	width: 1185px;
+}
+
+.aboutpage-nav ul a {
+	color: #2F2E2E !important;
+	padding-right: 3rem;
+	font-family: lato;
+	font-size: 16px;
+}
+
+.aboutpage-nav ul li {
+	padding-right: 3rem !important;
+}
+
+
+.aboutpage-nav ul a:hover {
+	color: #2F2E2E !important;
+	font-weight: bold;
+	border-bottom: 6px solid #0E0E0F;
+	padding-bottom: 20px;
+
+}
+
+.aboutpage-img img {
+	/* width: 1185px;*/
+	height: 235px;
+	filter: brightness(50%);
+	/* position: absolute; */
+}
+
+.aboutimg-txt {
+	font-size: 36px;
+	font-family: ;
+	font-weight: bold;
+	color: #FFFFFF;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.aboutpage-nav2 {
+	background-color: #FFFFFF;
+	width: 1185px;
+	height: 70.35px;
+	/* position: relative;
+	top: 335px; */
+}
+
+
+.aboutpage-nav2 ul a {
+	color: #2F2E2E !important;
+	padding-right: 3rem;
+	font-family: lato;
+	font-size: 16px;
+	margin-left: 60px;
+}
+
+.aboutpage-nav2 ul a:hover {
+	color: #2F2E2E !important;
+	font-weight: bold;
+	border-bottom: 4px solid #E9A71F;
+	padding-bottom: 22px;
+
+}
+
+.aboutclub {
+
+	/* position: relative; */
+	/* top: 338px; */
+	width: 1185px;
+	height: 500px;
+}
+
+.aboutclub-head {
+	font-size: 35px;
+	font-weight: bold;
+	text-align: left;
+	font-family: ;
+	padding-top: 51px;
+	padding-left: 143px;
+}
+
+.aboutclub-txt {
+	width: 993px;
+	font-size: 15px;
+	padding-left: 143px;
+	padding-top: 21px;
+}
+
+.managingCommitte-head {
+	font-size: 35px;
+	font-weight: bold;
+	padding-left: 143px;
+	margin-top: -85px;
+}
+
+.m-content {
+	width: 875px;
+	height: 203px;
+
+	margin-top: 41px;
+	margin-left: 143px
+}
+
+.m-pic img {
+	width: 200px;
+	height: 200px;
+
+}
+
+.managingCommitte-name {
+	width: 155px;
+	height: 33px;
+	font-size: 25px;
+	font-weight: 600;
+
+	font-family: ;
+
+}
+
+.managingCommitte-Designation {
+	font-size: 18px;
+	color: #404040;
+	text-align: left;
+	font-family: ;
+}
+
+.managingCommitte-text {
+	width: 630px;
+	height: 120px;
+	font-size: 12px;
+	font-family: ;
+	color: #707070;
+	text-align: left;
+}
+
+/* Office Details CSS*/
+
+.officeDetails-head {
+	font-size: 35px;
+	font-weight: bold;
+	text-align: left;
+	padding-top: 51px;
+	padding-left: 143px;
+
+}
+
+.od-container {
+	padding-top: 44px;
+	padding-left: 140px;
+
+}
+
+.od-details {
+	width: 324px;
+	height: 210px;
+	border: solid 1px #A8A8A8;
+}
+
+.od-heading {
+	width: 322px;
+	height: 50px;
+	border: solid 1px #A8A8A8;
+	background-color: #D0EACD;
+	color: #070707;
+	font-size: 18px;
+	font-weight: bold;
+	text-align: left;
+	margin-left: -15px;
+}
+
+.od-heading2 {
+	width: 322px;
+	height: 50px;
+	border: solid 1px #A8A8A8;
+	background-color: #C6E7FC;
+	color: #070707;
+	font-size: 18px;
+	font-weight: bold;
+	text-align: left;
+	margin-left: -15px;
+}
+
+.od-heading3 {
+	width: 322px;
+	height: 50px;
+	border: solid 1px #A8A8A8;
+	background-color: #FFE3CB;
+	color: #070707;
+	font-size: 18px;
+	font-weight: bold;
+	text-align: left;
+	margin-left: -15px;
+}
+
+.pad {
+	/* padding: 0; */
+}
+
+.od-name {
+	width: 213px;
+	height: 26px;
+	font-size: 18px;
+	text-align: left;
+	color: #070707;
+	font-weight: bold;
+}
+
+.od-Designation {
+	width: 196px;
+	height: 20px;
+	font-size: 14px;
+	color: #707070;
+	text-align: left;
+}
+
+.od-contactNumber {
+	width: 263px;
+	height: 18px;
+	font-size: 14px;
+	color: #000000;
+	text-align: left;
+}
+
+/* History */
+.history-head {
+	font-size: 35px;
+	font-weight: bold;
+	text-align: left;
+	padding-top: 70px;
+	padding-left: 143px;
+
+}
+
+.h-container {
+	width: 954px;
+	height: 278px;
+	margin-left: 135px;
+
+}
+
+.h-head {
+	height: 40px;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.h-text {
+
+	height: 179px;
+	font-size: 15px;
+	color: #4D4D4D;
+}
+
+.h-image img {
+	width: 360px;
+	height: 240px;
+}
+
+
+.footer-quick-links {
+	width: 1185px;
+	height: 373px;
+	background-color: #F7F7F7;
+	margin-top: 90px;
+}
+
+/* Facilities CSS */
+
+.fb {
+	width: 993px;
+	height: 871px;
+	margin-left: 50px;
+}
+
+.fb-head {
+	font-family: ;
+	font-size: 35px;
+	font-weight: bold;
+}
+
+.fb-subhead {
+	font-size: 20px;
+	font-weight: 500;
+	color: #4D4D4D;
+	text-align: left;
+}
+
+.fb-text {
+	width: 808px;
+	height: auto;
+	font-size: 14px;
+	font-family: ;
+}
+
+.fb-pic img {
+	width: 450px;
+	height: 300px;
+}
+
+.fb-subhead1 {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.br {
+	width: 993px;
+	height: 552px;
+	margin-left: 50px;
+	margin-top: 90px;
+}
+
+.accomidate-btn button {
+	width: 230px;
+	height: 50px;
+	color: #FFFFFF;
+	background-color: #448F3C;
+	border: solid 1px #448F3C;
+	font-weight: bold;
+	padding: 12px 19px;
+	margin-top: 20px;
+}
+
+/* Membership CSS */
+
+.membership-head {
+	margin-left: 50px;
+	font-size: 35px;
+	font-weight: bold;
+}
+
+.doc-container {
+	width: 885px;
+	height: 241px;
+
+	margin-left: 50px;
+}
+
+.doc-head {
+	font-family: ;
+	font-size: 25px;
+	font-weight: bold;
+	color: #448F3C;
+}
+
+.doc-text li {
+	list-style-type: upper-alpha;
+}
+
+.membership-form {
+	width: 1185px;
+	height: 431px;
+	background-color: #F7F7F7;
+}
+
+.membership-form-head {
+	font-size: 30px;
+	font-family: ;
+	font-weight: bold;
+}
+
+.membership-btn {
+	width: 230px;
+	height: 50px;
+	color: #FFFFFF;
+	background-color: #FF6055;
+	font-weight: bold;
+	padding: 12px 19px;
+	margin-top: 20px;
+}
+
+.gallery-img img {
+	width: 325px;
+	height: 219px;
+}
+
+/* Booking  */
+
+.booking-container {
+	width: 493px;
+	height: 446px;
+}
+
+.booking-img {
+	width: 490px;
+	height: 241px;
+}
+
+.booking-head {
+	font-size: 25px;
+	font-weight: bold;
+	width: 270px;
+}
+
+.booking-text {
+	font-size: 15px;
+
+}
+
+.booking-rate {
+	font-size: 25px;
+	font-weight: bold;
+	text-align: end;
+	width: 86px;
+}
+
+.booking-btn button {
+	width: 200px;
+	height: 50px;
+	color: #707070;
+	padding: 12px 19px;
+	margin-top: 20px;
+	background-color: #FFFFFF;
+}
+
+/* Booking Form */
+
+.booking-details {
+
+	margin-top: 45px;
+	/* width: 650px; */
+	height: auto;
+	background-color: #F7F7F7;
+}
+
+.booking-detail-head {
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.booking-detail-head2 {
+	font-size: 25px;
+	font-weight: bold;
+	background-color: #F4DA37;
+}
+
+.base-price {
+	font-size: 16px;
+	color: #898989;
+}
+
+.price-details {
+	font-size: 20px;
+	color: #454545;
+	font-weight: 400;
+}
+
+/* 
+.booking-preview {
+	width: 453px;
+	height: 370px;
+} */
+
+.booking-preview-text {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.hotel-rule {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.hotel-rule-list ol li {
+	font-size: 14px;
+}
+
+.hotel-rules {
+	font-size: 20px;
+	font-weight: bold;
+	color: #1073BC;
+}
+
+.coupen-btn {
+	background-color: #448F3C;
+	color: #FFFFFF;
+}
+
+/*------------------------------------------------ media Query---------------------------------*/
+
+@media only screen and (max-width: 1000px) {
+	.heading {
+		width: 100%;
+		height: 100%;
+		/*margin-top:15px;*/
+		margin: 0 auto;
+	}
+
+	.brand-logo {
+		width: 100%;
+		height: 100%;
+	}
+
+	.logo {
+		width: 68px;
+		height: 68px;
+	}
+
+	.brand-name {
+		width: auto;
+		height: auto;
+		color: #262626;
+		font-size: 20px;
+		font-family: Baskerville;
+	}
+
+	.calling {
+		width: 100%;
+		height: 100%;
+		/*margin-left:122px;*/
+	}
+
+	.call-icon {
+		margin: auto;
+		/* margin-right: -28px; */
+	}
+
+	.email {
+		width: 100%;
+		height: 100%;
+		/*margin-left:65.5px;*/
+	}
+
+	.mail-icon {
+		margin: auto;
+		/* margin-right: -28px; */
+	}
+
+	.social-m {
+		width: 160.34px;
+		height: 38.34px;
+	}
+
+	.nav1 {
+		background-color: #448F3C;
+		color: #FFFFFF !important;
+		width: auto;
+		height: auto;
+
+	}
+
+	.caro {
+		width: 100%;
+		height: 100%;
+		/* background-image: url('./img/Rectangle\ 1490.png'); */
+
+	}
+
+	.caro1 {
+		padding: 0;
+	}
+
+	.caro1 img {
+		width: auto;
+		height: auto;
+	}
+
+	/* .carousel-caption{
+		font-size:300%;
+	} */
+
+	.carousel-caption {
+		bottom: 252px;
+		margin: auto;
+
+
+		width: 558px;
+		height: 136px;
+		/* font-family: 'MyWebFont'; */
+		font-size: 56px;
+		font-weight: 600;
+		text-align: center;
+	}
+
+	/*About css*/
+	.about {
+		width: 100%;
+		height: 100%;
+		/* position: relative;*/
+	}
+
+	.about img {
+		width: 100%;
+		height: 100%;
+	}
+
+	.about-contain {
+		width: 100%;
+		height: 100%;
+		bottom: 0;
+	}
+
+	.about-head {
+		width: auto;
+		height: auto;
+		text-align: center;
+		font-size: 35px;
+		font-weight: bold;
+	}
+
+	.about-texts {
+		width: 100%;
+		height: 100%;
+		font-size: 15px;
+		font-style: 'Roboto', sans-serif;
+		text-align: center;
+	}
+
+	.about-button button {
+		width: auto;
+		height: auto;
+		color: #448F3C;
+		background: #FFFFFF;
+		border: solid 1px #448F3C;
+		padding: 12px 19px;
+		margin-top: 18px;
+	}
+
+	/*Facilites css*/
+	.facilities {
+		width: auto;
+		height: 100%;
+		background: #448F3C;
+		color: #FFFFFF;
+	}
+
+	.facilities-head {
+		width: 100%;
+		height: 100%;
+		font-size: 35px;
+		font-weight: bold;
+		left: 0;
+		top: 0;
+		text-align: center;
+
+	}
+
+	.faclities-text {
+		width: 100%;
+		height: 100%;
+		font-size: 15px;
+		font-family: ;
+		left: 0;
+		top: 0;
+		text-align: center;
+	}
+
+	.facilities-features {
+		/* position: relative;
+		top: auto; */
+		margin-top: auto;
+	}
+
+	.faf-1 {
+		width: 100%;
+		height: 100%;
+		/*padding-left: 107px;*/
+		/* padding-left: 0; */
+
+	}
+
+	.faf-2 {
+		width: 100%;
+		height: 100%;
+		/* padding-left: 0; */
+
+	}
+
+	.faf-3 {
+		width: 100%;
+		height: 100%;
+		/* padding-left: 0%; */
+
+	}
+
+	.faf-4 {
+		width: 100%;
+		height: 100%;
+		/* padding-left: 0%; */
+
+	}
+
+	.faf-1-icon {
+		/* padding-left: 0%; */
+	}
+
+	.faf-head {
+		/*width:100%;*/
+		height: auto;
+		font-size: 25px;
+		font-weight: 500;
+	}
+
+	.faf-text {
+		width: 188px;
+		height: auto;
+		font-size: 12px;
+		text-align: center;
+	}
+
+	.faf-btn button {
+		width: auto;
+		height: auto;
+		color: #FFFFFF;
+		background: #448F3C;
+		border: solid 1px #FFFFFF;
+		/* margin-left: auto; */
+	}
+
+	/*membership css*/
+	.membership {
+		width: auto;
+		height: auto;
+	}
+
+
+	.membership img {
+		/* margin: auto;	
+		position: absolute; */
+		width: 100%;
+		height: 100%;
+
+	}
+
+	.containt-box {
+		width: auto;
+		height: auto;
+		position: relative;
+		top: 0;
+		left: 0;
+		color: #FFFFFF;
+	}
+
+	.memb-head {
+		width: auto;
+		height: auto;
+		font-size: x-large;
+		font-weight: bold;
+		display: inline;
+
+	}
+
+	.memb-text {
+		width: 100%;
+		height: auto;
+		font-size: 16px;
+		text-align: center;
+	}
+
+	.memb-btn button {
+		width: auto;
+		height: auto;
+		font-size: 20px;
+		font-weight: bold;
+		color: #FFFFFF;
+		background: #448F3C;
+
+	}
+
+	/* News and Events */
+	.news-event {
+		width: auto;
+		height: 100%;
+		background: #F7F7F7;
+	}
+
+	.ne-head {
+		width: auto;
+		height: auto;
+		font-size: 35px;
+		font-weight: bold;
+		padding-top: 0;
+		text-align: center;
+	}
+
+	.ne-text {
+		width: auto;
+		height: auto;
+		font-family: ;
+		font-size: 15px;
+		text-align: center;
+		padding-top: 0;
+	}
+
+	.ne-contents {
+		width: 100%;
+		height: auto;
+		/* border: solid 1px #000000; */
+		margin-top: auto;
+	}
+
+	.nec-head {
+		width: auto;
+		height: auto;
+		font-family: ;
+		font-size: 20px;
+		font-weight: bold;
+		text-align: left;
+		display: contents;
+	}
+
+	.nec-date {
+		width: auto;
+		height: auto;
+		font-family: ;
+		font-size: 14px;
+		text-align: left;
+		display: table-footer-group;
+	}
+
+	.nec-text {
+		width: auto;
+		height: auto;
+		font-family: ;
+		font-size: 12px;
+		text-align: left;
+		display: contents;
+
+	}
+
+	.nec-btn button {
+		width: auto;
+		height: auto;
+		color: #222121;
+		font-size: 16px;
+		border: solid 1px #848484;
+
+	}
+
+	.ne-btn button {
+		width: auto;
+		height: auto;
+		font-size: 20px;
+		font-weight: bold;
+		color: #FFFFFF;
+		background-color: #448F3C;
+	}
+
+	/* Contact Us CSS  */
+	.contact-us {
+		width: auto;
+		height: auto;
+		background-color: #448F3C;
+
+	}
+
+	.contact-head {
+		color: #FFFFFF;
+		width: auto;
+		height: 47px;
+		font-weight: bold;
+		font-size: 36px;
+		display: inline;
+		position: relative;
+		left: auto;
+		top: auto;
+	}
+
+	.contact-text {
+		width: auto;
+		height: auto;
+		font-size: 15px;
+		color: #FFFFFF;
+		font-family: ;
+		text-align: center;
+		position: relative;
+		top: auto;
+		left: auto;
+
+	}
+
+	.contact-containt {
+		width: 100%;
+		height: auto;
+		/* border: solid 1px #FFFFFF; */
+		position: relative;
+		top: 0;
+	}
+
+	.contact-border {
+		border: solid 1px #448F3C;
+		background-color: #FFFFFF;
+		width: ;
+		height: ;
+	}
+
+	.contact-icon {
+
+		position: relative;
+		top: auto;
+		left: auto;
+		margin: auto;
+	}
+
+	.contact-icon img {
+		/* position: relative;
+    top: 17px;
+    left: 6px; */
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
+
+	.contact-hd {
+		width: auto;
+		height: auto;
+		font-size: 30px;
+		font-weight: bold;
+		text-align: left;
+		display: inline;
+		top: auto;
+		left: auto;
+		text-align: center;
+		display: block;
+	}
+
+	.contact-subtxt {
+		width: 100%;
+		height: auto;
+		font-family: ;
+		font-size: 15px;
+		text-align: center;
+		display: block;
+		top: auto;
+		left: 0;
+		color: #707070;
+
+	}
+
+	.contact-txt {
+		width: 100%;
+		height: auto;
+		font-family: ;
+		font-size: 15px;
+		text-align: center;
+		top: auto;
+	}
+
+	/* Quick Links */
+	.quick-links {
+		width: auto;
+		height: auto;
+		background-color: #F7F7F7;
+	}
+
+	.ql {
+		width: auto;
+		height: auto;
+
+		margin: auto;
+		padding-top: 3%;
+
+	}
+
+	.ql-head {
+		font-size: 25px;
+		font-weight: bold;
+		height: 33px;
+	}
+
+	#links ul li {
+		list-style-type: none;
+		padding-top: 0;
+	}
+
+	#links ul li a {
+		text-decoration-style: none;
+		color: #475466;
+	}
+
+	#links ul a:hover {
+		text-decoration: none;
+	}
+
+	#links {
+
+		height: auto;
+		font-size: 20px;
+		margin-left: -33px;
+		color: #475466;
+	}
+
+
+	.ql-text {
+		font-family: ;
+		font-size: 20px;
+		color: #475466;
+		text-align: left;
+	}
+
+	/* About Page css */
+	.aboutpage {
+		width: auto;
+		height: auto;
+	}
+
+	.aboutpage-img img {
+		width: auto;
+		height: auto;
+		filter: brightness(50%);
+		/* position: absolute; */
+	}
+
+	.aboutpage-nav {
+		background-color: #FFFFFF;
+		color: #FFFFFF !important;
+		width: auto;
+	}
+
+	.aboutpage-nav2 {
+		background-color: #FFFFFF;
+		width: auto;
+		height: auto;
+	}
+
+	.aboutimg-txt {
+		font-size: 26px;
+		font-family: ;
+		font-weight: bold;
+		color: #FFFFFF;
+		/* top: 68px; */
+		position: absolute;
+		top: 40px;
+		left: 50%;
+		transform: translate(-50%);
+		/* width: auto;*/
+
+	}
+
+	.aboutpage-nav2 {
+		background-color: #FFFFFF;
+		width: auto;
+		height: auto;
+		position: relative;
+	}
+
+	.aboutclub {
+
+		/* position: relative; */
+		/* top: 338px; */
+		width: auto;
+		height: auto;
+	}
+
+	.aboutclub-head {
+		font-size: 35px;
+		font-weight: bold;
+		text-align: left;
+		font-family: ;
+		padding-top: 0;
+		padding-left: 0;
+		text-align: center;
+	}
+
+	.aboutclub-txt {
+		width: auto;
+		font-size: 15px;
+		padding-left: 0;
+		padding-top: 21px;
+	}
+
+
+
+	.managingCommitte-head {
+		font-size: 35px;
+		font-weight: bold;
+		padding-left: 0;
+		margin-top: 0;
+	}
+
+	.m-content {
+		width: auto;
+		height: auto;
+
+		margin-top: 0;
+		margin-left: 0
+	}
+
+	.m-pic img {
+		width: auto;
+		height: auto;
+
+	}
+
+	.managingCommitte-name {
+		width: auto;
+		height: auto;
+		font-size: 25px;
+		font-weight: 600;
+		font-family: ;
+
+	}
+
+	.managingCommitte-Designation {
+		font-size: 18px;
+		color: #404040;
+		text-align: left;
+		font-family: ;
+	}
+
+	.managingCommitte-text {
+		width: auto;
+		height: auto;
+		font-size: 12px;
+		font-family: ;
+		color: #707070;
+		text-align: left;
+	}
+
+
+	/* Office Details CSS*/
+
+	.officeDetails-head {
+		font-size: 35px;
+		font-weight: bold;
+		text-align: left;
+		padding-top: 0;
+		padding-left: 0;
+
+	}
+
+	.od-container {
+		padding-top: 11px;
+		padding-left: 0;
+
+	}
+
+	.od-details {
+		width: auto;
+		height: auto;
+		border: solid 1px #A8A8A8;
+		margin-top: 11px;
+	}
+
+	.od-heading {
+		width: auto;
+		height: 50px;
+		border: solid 1px #A8A8A8;
+		background-color: #D0EACD;
+		color: #070707;
+		font-size: 18px;
+		font-weight: bold;
+		text-align: center;
+		margin-left: -15px;
+	}
+
+	.od-heading2 {
+		width: auto;
+		height: 50px;
+		border: solid 1px #A8A8A8;
+		background-color: #C6E7FC;
+		color: #070707;
+		font-size: 18px;
+		font-weight: bold;
+		text-align: center;
+		margin-left: -15px;
+	}
+
+	.od-heading3 {
+		width: auto;
+		height: 50px;
+		border: solid 1px #A8A8A8;
+		background-color: #FFE3CB;
+		color: #070707;
+		font-size: 18px;
+		font-weight: bold;
+		text-align: center;
+		margin-left: -15px;
+	}
+
+	.pad {
+		/* padding: 0; */
+	}
+
+	.od-name {
+		width: 213px;
+		height: 26px;
+		font-size: 18px;
+		text-align: left;
+		color: #070707;
+		font-weight: bold;
+	}
+
+	.od-Designation {
+		width: 196px;
+		height: 20px;
+		font-size: 14px;
+		color: #707070;
+		text-align: left;
+	}
+
+	.od-contactNumber {
+		width: 263px;
+		height: 18px;
+		font-size: 14px;
+		color: #000000;
+		text-align: left;
+	}
+
+	/* History */
+	.history-head {
+		font-size: 35px;
+		font-weight: bold;
+		text-align: left;
+		padding-top: 70px;
+		padding-left: 0;
+
+	}
+
+	.h-container {
+		width: auto;
+		height: auto;
+		margin-left: 0;
+
+	}
+
+	.h-head {
+		height: 40px;
+		font-size: 30px;
+		font-weight: bold;
+	}
+
+	.h-text {
+
+		height: auto;
+		font-size: 15px;
+		color: #4D4D4D;
+	}
+
+	.h-image img {
+		width: 360px;
+		height: 240px;
+	}
+
+
+	.footer-quick-links {
+		width: auto;
+		height: auto;
+		background-color: #F7F7F7;
+		margin-top: 0;
+	}
+
+	/* Facilities CSS */
+
+	.fb {
+		width: auto;
+		height: auto;
+		margin-left: 0;
+	}
+
+	.fb-head {
+		font-family: ;
+		font-size: 35px;
+		font-weight: bold;
+	}
+
+	.fb-subhead {
+		font-size: 20px;
+		font-weight: 500;
+		color: #4D4D4D;
+		text-align: left;
+	}
+
+	.fb-text {
+		width: auto;
+		height: auto;
+		font-size: 14px;
+		font-family: ;
+	}
+
+	.fb-pic img {
+		width: 100%;
+		height: auto;
+	}
+
+	.fb-subhead1 {
+		font-size: 30px;
+		font-weight: bold;
+	}
+
+	/* Bar and Resto CSS */
+	.br {
+		width: auto;
+		height: auto;
+
+		margin-left: 0;
+		margin-top: 0;
+	}
+
+	.accomidate-btn button {
+		width: 230px;
+		height: 50px;
+		color: #FFFFFF;
+		background-color: #448F3C;
+		border: solid 1px #448F3C;
+		font-weight: bold;
+		padding: 12px 19px;
+		margin-top: 20px;
+	}
+
+	/* Membership CSS */
+
+	.membership-head {
+		margin-left: 0;
+		font-size: 35px;
+		font-weight: bold;
+	}
+
+	.doc-container {
+		width: auto;
+		height: auto;
+
+		margin-left: 0;
+	}
+
+	.doc-head {
+		font-family: ;
+		font-size: 25px;
+		font-weight: bold;
+		color: #448F3C;
+	}
+
+	.membership-form {
+		width: auto;
+		height: auto;
+		background-color: #F7F7F7;
+	}
+
+	.membership-form-head {
+		font-size: 30px;
+		font-family: ;
+		font-weight: bold;
+	}
+
+	.gallery-img img {
+		width: 100%;
+		height: 100%;
+	}
+
+/* Booking  */
+
+
+
+	.booking-img {
+		width: 100%;
+		height: auto;
+	}
+
+	.booking-btn button {
+		width: 100%;
+		height: 50px;
+		color: #707070;
+		padding: 12px 19px;
+		margin-top: 20px;
+		background-color: #FFFFFF;
+	}
+	
+
+
+}
+
+
+
+
+@media only screen and (max-width: 767px) {
+	.carousel-caption {
+		bottom: 16px;
+		margin: auto;
+
+
+		width: auto;
+		height: auto;
+		/* font-family: 'MyWebFont'; */
+		font-size: x-large;
+		font-weight: 600;
+		text-align: center;
+	}
+
+	.aboutimg-txt {
+		font-size: large;
+		font-family: ;
+		font-weight: bold;
+		color: #FFFFFF;
+		/* top: 68px; */
+		position: absolute;
+		top: 10px;
+		left: 58%;
+		transform: translate(-50%);
+		/* width: auto*/
+
+	}
+
+
+
+}
